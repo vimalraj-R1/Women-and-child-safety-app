@@ -1,0 +1,11 @@
+CREATE DATABASE women_safety;
+
+USE women_safety;
+
+CREATE TABLE users(
+id BIGINT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100),
+email VARCHAR(100),
+phone VARCHAR(20),
+password VARCHAR(255)
+);
